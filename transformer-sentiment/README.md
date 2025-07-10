@@ -92,7 +92,7 @@ The model was trained for 10 epochs on a sentiment dataset with variable-length 
 ---
 
 ## Sample Predictions
-
+```bash
 The trained model was tested on the following movie reviews:
     
 |-----------------------------------------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ The trained model was tested on the following movie reviews:
 | "I am really not sure if I like or hate the movie. It was long and I honestly did  |                     |            |
 |   not get the whole plot."                                                         | Negative            | 0.0137     |
 |-----------------------------------------------------------------------------------------------------------------------|
-
+```
 ---
 
 
