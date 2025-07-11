@@ -102,6 +102,7 @@ The model was trained for 10 epochs . Training and validation F1 macro and losse
 ---
 
 ## Selected Test Set Samples and Model Predictions
+```bash
 
 | Input Text                                                    | True Emotions              | Predicted Emotions                                        |
 |---------------------------------------------------------------|----------------------------|-----------------------------------------------------------|
@@ -116,6 +117,7 @@ The model was trained for 10 epochs . Training and validation F1 macro and losse
 | i agree his parents were very supportive then when            |                            |
 |they did a cast change they decided to make his parents jerks  | admiration                 | approval, confusion, realization, neutral                 |
 ----------------------------------------------------------------|----------------------------|------------------------------
+```
 ---
 
 ## Conclusion
