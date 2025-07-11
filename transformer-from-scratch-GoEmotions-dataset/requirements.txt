@@ -1,0 +1,8 @@
+numpy
+matplotlib
+torch
+re
+emoji
+aiohttp
+dataset
+scikit-learn
