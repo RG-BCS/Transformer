@@ -31,8 +31,11 @@ and feed-forward layers — all implemented manually.
 | Epochs            | 2000      |
 
 . Optimizer: Adam
+
 . Loss: CrossEntropyLoss (ignores padding tokens)
+
 . Scheduler: Linear warmup with decay
+
 . Gradient clipping: Enabled with max_norm=1.0
 
 ---
@@ -79,7 +82,7 @@ structured language model. Below we show a few samples for correct and wrong tra
 
 ### Correct Translations
 
-```bash
+
 
 | **Input**                           | **Target**                                    | **Predicted**                                  |
 |-------------------------------------|-----------------------------------------------|------------------------------------------------|
@@ -89,11 +92,11 @@ structured language model. Below we show a few samples for correct and wrong tra
 | what a cute baby ! may i hold her ? | que preciosa bebe ! ¿puedo sujetarla ?        | que preciosa bebe ! ¿puedo sujetarla ?         |
 | i m sure that i ll miss her a lot   | estoy seguro de que la voy a extranar mucho   | estoy seguro de que la voy a extranar mucho    |
 
-```
+
 ---
 ### Incorrect Translations
 
-```bash
+
 
 | **Input**                           | **Target**                               | **Predicted**                           |
 |-------------------------------------|------------------------------------------|-----------------------------------------|
@@ -104,7 +107,6 @@ structured language model. Below we show a few samples for correct and wrong tra
 | do you want me to get rid of this ? | ¿quieres que me deshaga de esto ?        | ¿quieres que consigas ir a la cama ?    |
 
 
-```
 ---
 ###  Loss & Gradient Norm Trend
 
@@ -125,6 +127,6 @@ between model capacity, training time, and computational resources. With further
 (like beam search), and optimizations such as checkpointing and evaluation metrics (e.g., BLEU), this project can evolve into
 a more robust baseline for low-resource neural machine translation (NMT) systems.
 
-Whether you're a researcher exploring transformer internals or an engineer seeking a practical translation model, this
-repository offers a strong foundation for experimentation and learning.
+Whether you're a researcher exploring transformer internals or an engineer seeking a practical translation model, this repository offers a strong foundation for experimentation and learning.
+
 ---
