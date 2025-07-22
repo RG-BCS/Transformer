@@ -80,6 +80,7 @@ and parents in creating endless tales on demand.
 
 
 Note: in the chart below [prompt] is used as a place holder for the entire prompt sentence given below
+
 Prompt: It was a dark and stormy night, and the wind howled through the trees...
 
 
