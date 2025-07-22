@@ -84,6 +84,7 @@ Note: in the chart below [prompt] is used as a place holder for the entire promp
 Prompt: It was a dark and stormy night, and the wind howled through the trees...
 
 
+
 | Method                   | Sample Output (Truncated)                                                                                                                                                                                                                                              |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Beam Search**          | It was a dark and stormy night, and the wind howled through the trees and the birds were singing and dancing in the sky. One day, a little boy named Tim went to the park with his mom. At the park, Tim saw a big tree... A big wind came and blew the ball far away. |
